@@ -23,9 +23,8 @@ export default function Header() {
     </a>
     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
       <Link to={"/"} className="mr-5 hover:text-gray-900"> Home  </Link>
-      <Link to={"/Abouts"} className="mr-5 hover:text-gray-900"> About  </Link>
+      <Link to={"/Abouts"} className="mr-5 hover:text-gray-900"> Products  </Link>
       <Link to={"/ContactUs"} className="mr-5 hover:text-gray-900"> Contact Us  </Link>
-      {/* <Link to={"/SignIn"} className="mr-5 hover:text-gray-900">  Sign In  </Link> */}
       <Link to={"/SignUp"} className="mr-5 hover:text-gray-900">  Sign Up  </Link>
       
     </nav>

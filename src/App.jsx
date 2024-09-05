@@ -7,6 +7,7 @@ import ContactUs from './Compunents/ContactUs'
 import Abouts from './Compunents/Abouts'
 import SignIn from './Compunents/SignIn'
 import SignUp from './Compunents/SignUp'
+import ProductDetail from './Compunents/ProductDetail'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <Route path='/Abouts' element={<Abouts />} />
       <Route path='/SignIn' element={<SignIn />} />
       <Route path='/SignUp' element={<SignUp />} />
+      <Route path='/products/:id' element={<ProductDetail />} />
     </Routes>
     </BrowserRouter>
   )
